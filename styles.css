@@ -1,0 +1,205 @@
+
+body{
+	margin:2%;
+}
+body, a, div, span {
+    font-family: sans-serif;
+}
+.container{
+	position: absolute;
+    width: 96%;
+    height: 92%;
+	/*border: 1px solid #b7b6b6;*/
+}
+.col-1 {
+    
+    width: 50%;
+    height: 100%;
+    display: inline;
+    position: relative;
+    float: left;
+}
+.col-2 {
+	width: 50%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    float: right;
+}
+.showImage {
+   /* width: 100%;
+    height: 75%;*/
+	margin-left: 50%;
+}
+.colorOption {
+    width: 100%;
+    height: 5%;
+	margin-left:50%;
+}
+.info {
+    width: 100%;
+    height: 15%;
+}
+.section{
+	height:5%;
+	width: 100%;
+}
+.rating {
+    margin: 1%;
+	margin-top: 4%;
+    width: 48%;
+    height: 40%;
+    float: left;
+    display: inline-block;
+}
+.meter {
+	margin: 1%;
+    width: 48%;
+	margin-top: 4%;
+    height: 40%;
+    float: right;
+    display: inline-block;
+}
+.allRating {
+    width: 100%;
+    height: 5%;
+    text-align:center;
+    display: inline-block;
+	color: #3F51B5;
+}
+.carOption {
+    width: 100%;
+    height: 30%;
+    display: inline-block;
+    margin-top: -0.6%;
+}
+.boxSize{
+    width: 15px;
+    height: 15px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 2px;
+	transform: translateX(-220%);
+}
+.imgCar{
+	width: 140%;
+   /* height: 75%;*/
+    transform: translateX(-50%);
+}
+p{
+	margin: 1%;
+    font-size: 0.9em;
+    
+}
+div.section p {
+    font-size: 1.6em;
+}
+p.colorCar {
+    font-weight: bold;
+}
+.colorCar,.infoPara{
+	color: #a2a0a0;
+    text-align: center;
+}
+.ratingBar {
+    width: 90%;
+    height: 4%;
+    background-color: #fbfbb6;
+    border-radius: 15px;
+	display: inline-block;
+}
+
+span.rate {
+    display: inline-block;
+	margin-left: 10px;
+}
+
+.ratingInner{
+	height: 100%;
+    background-color: yellow;
+    padding: 0px;
+    
+    border-radius: 15px;
+	animation: 5s linear changeWidth;
+}
+img.smallImg {
+    width: 100px;
+    height: 80px;
+	margin: 0px 8px 0px 8px;
+}
+.imageTiles {
+    width: 120px;
+    display: inline-block;
+    border: 1px solid #dcdada;
+    border-radius: 10px;
+	margin:10px;
+    
+}
+.imageTiles p {
+    text-align: center;
+}
+.footer {
+	height: 30px;
+    background-color: #2196F3;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+a#anchor {
+    color: #1A27F2;
+    text-decoration: none;
+	font-size: 1em;
+}
+a#anchor img {
+    width: 10px;
+}
+.meterScale {
+    width: 200px;
+    height: 100px;
+    border: 10px solid #fef729;
+    border-radius: 100px 100px 0 0;
+    border-bottom: none;
+    position: relative;
+    left: 40px;
+    top: 15px;
+}
+img#meterImg {
+    position: relative;
+    left: 40px;
+    width: 115px;
+    transform: rotate(84deg);
+}
+p.meterValue {
+    text-align: center;
+    font-size: 2em;
+    padding-left: 4px;
+}
+
+.rotate {
+  animation: 5s linear rotate;
+  position: relative;
+  transform-origin: right center;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg)
+  }
+  
+}
+
+@keyframes changeWidth {
+    from{width:0px;}
+   
+}
+.ratingPara{
+	color: #a2a0a0;
+    text-align: center;
+	font-weight:bold;
+
+}
+.selected{
+	border:2px solid black;
+}
